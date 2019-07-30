@@ -45,8 +45,8 @@
     </developers>
 
     <properties>
-        <!-- path to JDK9+. We'll use jitpack's JDK10 default path-->
-        <java9.jdk>/usr/lib/jvm/jdk-10</java9.jdk>
+        <!-- path to JDK9+. We'll use jitpack's JDK11 default path-->
+        <java9.jdk>/usr/lib/jvm/jdk-11</java9.jdk>
         <java9.sourceDirectory>${project.basedir}/src-jdk9</java9.sourceDirectory>
         <java9.build.outputDirectory>${project.build.directory}/classes-jdk9</java9.build.outputDirectory>
         <!-- enable release tasks (javadoc, sources, release) -->
